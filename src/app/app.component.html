@@ -1,0 +1,33 @@
+<div class="bb-navbar">
+  <div class="container">
+    <img class="bb-navbar__logo" src="assets/logo.jpg">
+  </div>
+</div>
+<div class="container mb-3">
+  <div class="row">
+    <div class="col-md-4">
+      <!-- FORM -->
+      <div class="bb-panel">
+        <div class="bb-panel__header">
+          <img class="bb-panel__header__icon" src="assets/icons/arrows.png">
+          Make a transfer
+        </div>
+        <div class="bb-panel__body">
+          <app-transfer-form></app-transfer-form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <!-- TRANSACTIONS -->
+      <div class="bb-panel bb-panel--large">
+        <div class="bb-panel__header">
+          <img class="bb-panel__header__icon" src="assets/icons/briefcase.png">
+          Recent transactions
+        </div>
+        <div class="bb-panel__body">
+          <app-transactions-list></app-transactions-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
